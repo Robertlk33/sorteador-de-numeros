@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteador de números</title>
+</head>
+
+<body>
+
+    <img src="./img/cubo.png" alt="Imagem de um cubo">
+
+    <h1 id="mostrar">boa sorte</h1>
+    <p>Clique no botão abaixo para sortear um número aleatório entre 0 e 100 ou +.</p>
+
+    <div class="container">
+        <input placeholder="entre" class="input-min" type="number">
+        <input placeholder="e" class="input-max" type="number">
+    </div>
+
+   <button onclick="generateNumber()">sortear</button>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
