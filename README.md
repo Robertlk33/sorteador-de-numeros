@@ -7,3 +7,7 @@
 <img src="./img/capitura inicial.png" alt="capitura inicial">
 <br>
 <img src="./img/capitura final.png" alt="capitura final">
+<<<<<<< HEAD
+=======
+
+>>>>>>> aaa9206a584e048d5b9402a58544590022a0195b
